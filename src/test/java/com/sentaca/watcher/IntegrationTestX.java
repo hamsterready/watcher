@@ -5,9 +5,9 @@ import java.nio.file.WatchEvent.Kind;
 
 import junit.framework.TestCase;
 
-public class Test extends TestCase {
+public class IntegrationTestX extends TestCase {
 
-  public void testname() throws Exception {
+  public void testWatching() throws Exception {
     new DirectoryWatchService(new DirectoryEventListenerAdapter() {
 
       @Override
